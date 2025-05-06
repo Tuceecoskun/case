@@ -1,13 +1,3 @@
-USE [EGITIM]
-GO
-
-/****** Object:  StoredProcedure [dbo].[check_code]    Script Date: 5/6/2025 7:29:34 PM ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE PROCEDURE [dbo].[check_code]
     @PromoCode NVARCHAR(8),
     @IsValid INT OUTPUT
