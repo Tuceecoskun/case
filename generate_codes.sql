@@ -1,13 +1,3 @@
-USE [EGITIM]
-GO
-
-/****** Object:  StoredProcedure [dbo].[generate_codes]    Script Date: 5/6/2025 7:29:54 PM ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
 CREATE PROCEDURE [dbo].[generate_codes]
 AS
 BEGIN
